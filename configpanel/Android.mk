@@ -13,10 +13,10 @@ LOCAL_USE_AAPT2 := true
 
 LOCAL_STATIC_ANDROID_LIBRARIES := \
     androidx.core_core \
-    org.lineageos.settings.resources
+    com.libremobileos.settings.resources
 
 LOCAL_STATIC_JAVA_LIBRARIES := \
-    org.lineageos.platform.internal
+    VendorSupport-preference
 
 LOCAL_RESOURCE_DIR := \
     $(LOCAL_PATH)/res \
